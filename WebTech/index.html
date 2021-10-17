@@ -29,7 +29,7 @@
 
 </head>
 
-<body>
+<body id="body">
   <header>
     <div class="nav" onmouseover="nav()">
       <div class="nav-site">
@@ -126,8 +126,10 @@
         </div>
       </div>
     </div>
-    <div class="text-arrow"></div>
-      <div class="arrow"></div>
+    <div class="down-page">
+      <div><div class="text-arrow"></div></div>
+      <div><div class="arrow"></div></div>
+    </div>
   </header>
   <div class="MainSite">
     <!--News-->
@@ -175,7 +177,7 @@
       <div class="site-container">
         <h3>Careers</h3>
         <div class="New-slide">
-          <div class="Careers-content">
+          <div class="Careers-content" id="Careers-content1">
             <div class="Careers-img">
               <img class="Scale-img" src="https://www.krafton.com/wp-content/uploads/2021/08/main_careers-580x220.png"
                 alt="" />
@@ -186,15 +188,17 @@
               <div class="New-time">
                 Meet our team members you want to work with.
               </div>
+              <div class="arrow-link" id="arrow-link1"></div>
             </div>
           </div>
-          <div class="Careers-content">
+          <div class="Careers-content" id="Careers-content2">
             <div class="Careers-img">
               <img class="Scale-img" src="https://www.krafton.com/wp-content/uploads/2021/08/main_jobs-580x220.png"
                 alt="" />
             </div>
             <h4 calss="Text-new">KRAFTON RECRUIT</h4>
             <div class="New-time">Find our latest job openings.</div>
+            <div class="arrow-link" id="arrow-link2"></div>
           </div>
         </div>
       </div>
@@ -248,7 +252,7 @@
 
             <a href="" class="Studio-card Card-game2">
               <div class="Card2" id="std-card2">
-                <div  class="Studio-img2"></div>
+                <div class="Studio-img2"></div>
                 <div class="Studio-info2">
                   <h4>Bluehole Studio</h4>
                   <p>We will become a leading game production company in the mmorpg genre</p>
