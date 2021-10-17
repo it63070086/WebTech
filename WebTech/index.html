@@ -1,222 +1,301 @@
 <!DOCTYPE html>
 <html lang="en">
-  <head>
-    <meta charset="utf-8" />
-    <meta name="viewport" content="width=device-width, initial-scale=1" />
-    <link rel="preconnect" href="https://fonts.googleapis.com" />
-    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
-    <link
-      href="https://fonts.googleapis.com/css2?family=Poppins:wght@500&display=swap"
-      rel="stylesheet"
-    />
-    <link rel="preconnect" href="https://fonts.googleapis.com" />
-    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
-    <link
-      href="https://fonts.googleapis.com/css2?family=Noto+Sans:wght@700&display=swap"
-      rel="stylesheet"
-    />
-    <link
-      href="https://cdn.jsdelivr.net/npm/bootstrap@5.0.2/dist/css/bootstrap.min.css"
-      rel="stylesheet"
-      integrity="sha384-EVSTQN3/azprG1Anm3QDgpJLIm9Nao0Yz1ztcQTwFspd3yD65VohhpuuCOmLASjC"
-      crossorigin="anonymous"
-    />
-    <link rel="stylesheet" href="style.css" />
-    <title>home | KRAFTON</title>
-    <link
-      rel="shortcut icon"
-      href="https://www.krafton.com/wp-content/themes/krafton/assets/img/logo/favicon.ico"
-    />
-    <link
-      rel="apple-touch-icon"
-      sizes="180x180"
-      href="https://www.krafton.com/wp-content/themes/krafton/assets/img/logo/apple-touch-icon.png"
-    />
-    <link
-      rel="icon"
-      type="image/png"
-      sizes="16x16"
-      href="https://www.krafton.com/wp-content/themes/krafton/assets/img/logo/android-chrome-192x192.png"
-    />
-    <link
-      rel="icon"
-      type="image/png"
-      sizes="16x16"
-      href="https://www.krafton.com/wp-content/themes/krafton/assets/img/logo/android-chrome-256x256.png"
-    />
-    <link
-      rel="icon"
-      type="image/png"
-      sizes="16x16"
-      href="https://www.krafton.com/wp-content/themes/krafton/assets/img/logo/favicon-16x16.png"
-    />
-    <link
-      rel="icon"
-      type="image/png"
-      sizes="32x32"
-      href="https://www.krafton.com/wp-content/themes/krafton/assets/img/logo/favicon-32x32.png"
-    />
-  </head>
 
-  <body>
-    <div class="header">
-      <div class="site-header">
-        <a href="" class="logo"></a>
-        <div class="nav">
-          <ul class="languages unit" style="margin: 0">
-            <li class="list-languages"><a href="" class="alist">About</a></li>
-            <li class="list-languages"><a href="" class="alist">Studios</a></li>
-            <li class="list-languages"><a href="" class="alist">Games</a></li>
-            <li class="list-languages"><a href="" class="alist">Careers</a></li>
-            <li class="list-languages"><a href="" class="alist">IR</a></li>
-            <li class="list-languages"><a href="" class="alist">News</a></li>
-          </ul>
+<head>
+  <meta charset="utf-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1" />
+  <link rel="preconnect" href="https://fonts.googleapis.com" />
+  <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
+  <link href="https://fonts.googleapis.com/css2?family=Poppins:wght@500&display=swap" rel="stylesheet" />
+  <link rel="preconnect" href="https://fonts.googleapis.com" />
+  <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
+  <link href="https://fonts.googleapis.com/css2?family=Noto+Sans:wght@700&display=swap" rel="stylesheet" />
+  <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.0.2/dist/css/bootstrap.min.css" rel="stylesheet"
+    integrity="sha384-EVSTQN3/azprG1Anm3QDgpJLIm9Nao0Yz1ztcQTwFspd3yD65VohhpuuCOmLASjC" crossorigin="anonymous" />
+  <link rel="stylesheet" href="style.css" />
+  <title>home | KRAFTON</title>
+  <link rel="shortcut icon" href="https://www.krafton.com/wp-content/themes/krafton/assets/img/logo/favicon.ico" />
+  <link rel="apple-touch-icon" sizes="180x180"
+    href="https://www.krafton.com/wp-content/themes/krafton/assets/img/logo/apple-touch-icon.png" />
+  <link rel="icon" type="image/png" sizes="16x16"
+    href="https://www.krafton.com/wp-content/themes/krafton/assets/img/logo/android-chrome-192x192.png" />
+  <link rel="icon" type="image/png" sizes="16x16"
+    href="https://www.krafton.com/wp-content/themes/krafton/assets/img/logo/android-chrome-256x256.png" />
+  <link rel="icon" type="image/png" sizes="16x16"
+    href="https://www.krafton.com/wp-content/themes/krafton/assets/img/logo/favicon-16x16.png" />
+  <link rel="icon" type="image/png" sizes="32x32"
+    href="https://www.krafton.com/wp-content/themes/krafton/assets/img/logo/favicon-32x32.png" />
+  <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.5.1/jquery.min.js"></script>
+
+</head>
+
+<body>
+  <header>
+    <div class="nav" onmouseover="nav()">
+      <div class="nav-site">
+        <div class="nav-logo"></div>
+        <div class="nav-menu">
+          <a href="" class="menu-item">About</a>
+          <a href="" class="menu-item">Studios</a>
+          <a href="" class="menu-item">Games</a>
+          <a href="" class="menu-item">Careers</a>
+          <a href="" class="menu-item">IR</a>
+          <a href="" class="menu-item">News</a>
         </div>
-        <div class="display-languages">
-          <ul class="languages" style="margin: 0">
-            <li class="list-languages"><a href="" class="alist-lang">KO</a></li>
-            <li class="list-languages"><a href="" class="alist-lang">EN</a></li>
-            <li class="list-languages"><a href="" class="alist-lang">CN</a></li>
-          </ul>
+        <div class="nav-lang">
+          <a href="" class="lang-item">KO</a><span class="nav-split">|</span>
+          <a href="" class="lang-item">EN</a><span class="nav-split">|</span>
+          <a href="" class="lang-item">CN</a>
         </div>
       </div>
     </div>
-    <div class="MainSite">
-      <div class="ContentText">
-        <!--Content Page 1 ตัวอักษร + Video-->
-        <div class="content_page1"></div>
+    <div class="nav-sub" id="nav-sub">
+      <div class="sub-menu">
+        <b><a href="">About</a></b>
+        <a href="">KRAFTON Story</a>
+        <a href="">Our Footprints</a>
+        <a href="">Our Challenges</a>
+        <a href="">Brand Resource Center</a>
       </div>
-
-      <!--News-->
-      <div class="MainNews">
-        <div class="site-container">
-          <h3 class="New-title">News</h3>
-          <div class="New-slide">
-            <div class="New-content">
-              <div class="New-img">
-                <img
-                  class="Scale-img"
-                  src="https://www.krafton.com/wp-content/uploads/2021/10/VIRTUS.PRO_WINS_PUBG_CONTINENTAL_SERIES_5_EUROPE_GRAND_FINALS-381x244.jpg"
-                  alt=""
-                />
-              </div>
-              <div>
-                <h4 calss="Text-new">
-                  VIRTUS.PRO WINS PUBG CONTINENTAL SERIES 5 EUROPE GRAND FINALS
-                </h4>
-                <div class="New-time">2021. 10. 04</div>
-              </div>
+      <div class="sub-menu">
+        <b><a href="">Studios</a></b>
+        <a href="">PUBG STUDIOS</a>
+        <a href="">Bluehole Studio</a>
+        <a href="">RisingWings</a>
+        <a href="">Striking Distance Studios</a>
+        <a href="">Dreamotion</a>
+      </div>
+      <div class="sub-menu">
+        <b><a href="">Games</a></b>
+        <a href="">PUBG: BATTLEGROUNDS</a>
+        <a href="">PUBG: NEW STATE</a>
+        <a href="">TERA</a>
+        <a href="">ELYON</a>
+        <a href="">MISTOVER</a>
+        <a href="">Castle Craft: World War</a>
+        <a href="">GOLF KING: WORLD TOUR</a>
+        <a href="">BOWLING KING</a>
+        <a href="">MINI GOLF KING</a>
+        <a href="">Ronin: The Last Samurai</a>
+        <a href="">Road to Valor: World War II</a>
+      </div>
+      <div class="sub-menu">
+        <b><a href="">Careers</a></b>
+        <a href="">People</a>
+        <a href="">Life</a>
+        <a href="">Jobs</a>
+      </div>
+      <div class="sub-menu">
+        <b><a href="">IR</a></b>
+        <a href="">GovernanceDisclosure</a>
+        <a href="">Financial Information</a>
+        <a href="">Investor Events</a>
+      </div>
+      <div class="sub-menu">
+        <b><a href="">News</a></b>
+        <a href="">Press</a>
+      </div>
+    </div>
+    <div class="banner">
+      <div class="banner-section">
+        <div class="banner-video">
+          <div class="banner-top">
+            <video id="" poster="" autoplay="" loop="" muted="" playsinline="">
+              <source src="https://www.krafton.com/wp-content/uploads/2021/06/video-005.mp4">
+            </video>
+          </div>
+          <div class="banner-bottom">
+            <video id="" poster="" autoplay="" loop="" muted="" playsinline="">
+              <source src="https://www.krafton.com/wp-content/uploads/2021/06/video-007.mp4">
+            </video>
+          </div>
+        </div>
+        <div class="banner-img"></div>
+        <div class="banner-text">
+          <div class="text-banner"></div>
+          <div class="text-banner"></div>
+          <div class="text-banner"></div>
+          <div class="text-banner"></div>
+          <div class="text-banner"></div>
+          <div class="text-banner"></div>
+          <div class="text-banner">
+            <p>KRAFTON will further expand our original IPs and build
+              immersive, virtual worlds, where our fans play together and share fun moments. We will meet
+              everyone in the world we are building.</p>
+          </div>
+        </div>
+      </div>
+    </div>
+    <div class="text-arrow"></div>
+      <div class="arrow"></div>
+  </header>
+  <div class="MainSite">
+    <!--News-->
+    <div class="MainNews">
+      <div class="site-container">
+        <h3 class="New-title">News</h3>
+        <div class="New-slide">
+          <div class="New-content">
+            <div class="New-img">
+              <img class="Scale-img"
+                src="https://www.krafton.com/wp-content/uploads/2021/10/VIRTUS.PRO_WINS_PUBG_CONTINENTAL_SERIES_5_EUROPE_GRAND_FINALS-381x244.jpg"
+                alt="" />
             </div>
-            <div class="New-content">
-              <div class="New-img">
-                <img
-                  class="Scale-img"
-                  src="https://www.krafton.com/wp-content/uploads/2021/10/4.Carry_-381x244.jpg"
-                  alt=""
-                />
-              </div>
+            <div>
               <h4 calss="Text-new">
-                PUBG: BATTLEGROUNDS BRINGS HALLOWEEN TO THE ERANGEL MAP WITH
-                UPDATE 14.1
+                VIRTUS.PRO WINS PUBG CONTINENTAL SERIES 5 EUROPE GRAND FINALS
               </h4>
+              <div class="New-time">2021. 10. 04</div>
             </div>
-            <div class="New-content">
-              <div class="New-img">
-                <img
-                  class="Scale-img"
-                  src="https://www.krafton.com/wp-content/uploads/2021/08/About_history_og-min-381x244.png"
-                  alt=""
-                />
-              </div>
-              <h4 calss="Text-new">
-                Yeoksam Office for Communication and Refreshment
-              </h4>
+          </div>
+          <div class="New-content">
+            <div class="New-img">
+              <img class="Scale-img" src="https://www.krafton.com/wp-content/uploads/2021/10/4.Carry_-381x244.jpg"
+                alt="" />
             </div>
+            <h4 calss="Text-new">
+              PUBG: BATTLEGROUNDS BRINGS HALLOWEEN TO THE ERANGEL MAP WITH
+              UPDATE 14.1
+            </h4>
+          </div>
+          <div class="New-content">
+            <div class="New-img">
+              <img class="Scale-img"
+                src="https://www.krafton.com/wp-content/uploads/2021/08/About_history_og-min-381x244.png" alt="" />
+            </div>
+            <h4 calss="Text-new">
+              Yeoksam Office for Communication and Refreshment
+            </h4>
           </div>
         </div>
       </div>
-      <!--Career-->
-      <div class="MainNews">
-        <div class="site-container">
-          <h3>Careers</h3>
-          <div class="New-slide">
-            <div class="Careers-content">
-              <div class="Careers-img">
-                <img
-                  class="Scale-img"
-                  src="https://www.krafton.com/wp-content/uploads/2021/08/main_careers-580x220.png"
-                  alt=""
-                />
-              </div>
-              <div>
-                <h4 calss="Text-new">PEOPLE&LIFE</h4>
-
-                <div class="New-time">
-                  Meet our team members you want to work with.
-                </div>
-              </div>
-            </div>
-            <div class="Careers-content">
-              <div class="Careers-img">
-                <img
-                  class="Scale-img"
-                  src="https://www.krafton.com/wp-content/uploads/2021/08/main_jobs-580x220.png"
-                  alt=""
-                />
-              </div>
-              <h4 calss="Text-new">KRAFTON RECRUIT</h4>
-              <div class="New-time">Find our latest job openings.</div>
-            </div>
-          </div>
-        </div>
-      </div>
-      <div class="MainGame">
-          <div class="MainGameIner">
-          <div class="MainGameHeader">
-            <div class="site-container MainGameHeader-Inner">
-              <h3 class="MainGameHeader-title">
-                <a class="MainGameHeader-link" href="/en/games/"
-                  >KRAFTON GAMES</a
-                >
-              </h3>
-
-            </div>
-          </div>
-        </div>
-      </div>
-      <div class="MainStudios">
-		<div class="site-container">
-			<div class="MainStudios-header">
-				<h3 class="MainStudios-title">
-					<a href="/en/studios/" class="MainStudios-text">Studios</a>
-				</h3>
-			</div>
-            <div class="Studio-cards">
-                <div class="Studio-card1">
-                    <div class="Studio-img1"></div>
-                </div>
-                <div class="Studio-card2">
-
-                </div>
-                <div class="Studio-card3">
-
-                </div>
-                <div class="Studio-card4">
-
-                </div>
-            </div>
-		</div>
     </div>
-	</div>
-    <!--END MAIN SITE-->
+    <!--Career-->
+    <div class="MainNews">
+      <div class="site-container">
+        <h3>Careers</h3>
+        <div class="New-slide">
+          <div class="Careers-content">
+            <div class="Careers-img">
+              <img class="Scale-img" src="https://www.krafton.com/wp-content/uploads/2021/08/main_careers-580x220.png"
+                alt="" />
+            </div>
+            <div>
+              <h4 calss="Text-new">PEOPLE&LIFE</h4>
+
+              <div class="New-time">
+                Meet our team members you want to work with.
+              </div>
+            </div>
+          </div>
+          <div class="Careers-content">
+            <div class="Careers-img">
+              <img class="Scale-img" src="https://www.krafton.com/wp-content/uploads/2021/08/main_jobs-580x220.png"
+                alt="" />
+            </div>
+            <h4 calss="Text-new">KRAFTON RECRUIT</h4>
+            <div class="New-time">Find our latest job openings.</div>
+          </div>
+        </div>
+      </div>
     </div>
-    <footer>
-      
-    </footer>
-    <script
-      src="https://cdn.jsde/bootstrap@5.0.2/dist/js/bootstrap.bundle.min.js"
-      integrity="sha384-MrcW6ZMFYlzcLA8Nl+NtUVF0sA7MsXsP1UyJoMp4YLEuNSfAP+JcXn/tWtIaxVXM"
-      crossorigin="anonymous"
-    ></script>
-  </body>
+
+    <div class="MainGame a-BlackBg">
+      <div class="MainGameInner">
+        <!-- MainKraftonGame Header -->
+        <div class="MainGameHeader">
+          <div class="site-container MainGameHeader-Inner">
+            <h3 class="MainGameHeader-title">
+              <a class="MainGameHeader-link" href="/en/games/">KRAFTON GAMES</a>
+            </h3>
+            <!--arrow -->
+            <div class="MainGameSlideArrow">
+            </div>
+            <!--.arrow -->
+          </div>
+        </div>
+        <!-- .MainKraftonGame Header -->
+        <!-- MainKraftonGame Slide -->
+        <div class="MainGameSlide">
+
+        </div>
+        <!-- .MainKraftonGame Slide -->
+      </div>
+    </div>
+
+    <div class="MainStudios">
+      <div class="site-container">
+        <div class="MainStudios-header">
+          <h3 class="MainStudios-title">
+            <a href="/en/studios/" class="MainStudios-text">Studios</a>
+          </h3>
+        </div>
+        <div class="Studio-frame">
+          <div class="activate Frame-card">
+
+            <a href="" class="Studio-card Card-game1">
+              <div class="Card1" id="std-card1">
+                <div class="Studio-img1"></div>
+                <div class="Studio-info1">
+                  <h4>PUBG STUDIOS</h4>
+                  <p>More than just a game, PUBG is a cultural phenomenon</p>
+                </div>
+
+              </div>
+            </a>
+          </div>
+          <div class="Frame-card">
+
+            <a href="" class="Studio-card Card-game2">
+              <div class="Card2" id="std-card2">
+                <div  class="Studio-img2"></div>
+                <div class="Studio-info2">
+                  <h4>Bluehole Studio</h4>
+                  <p>We will become a leading game production company in the mmorpg genre</p>
+                </div>
+
+              </div>
+            </a>
+          </div>
+          <div class="Frame-card">
+
+            <a href="" class="Studio-card Card-game3">
+              <div class="Card3" id="std-card3">
+                <div class="Studio-img3"></div>
+                <div class="Studio-info3">
+                  <h4><b>RisingWings</b></h4>
+                  <p>The most widely desired mobile game provider</p>
+                </div>
+
+              </div>
+            </a>
+          </div>
+          <div class="Frame-card">
+            <a href="" class="Studio-card Card-game4">
+              <div class="Card4" id="std-card4">
+                <div class="Studio-img4"></div>
+                <div class="Studio-info4">
+                  <h4>Striking Distance Studios</h4>
+                  <p>Crafting immersive experiences, driven by our passion for quality and excellence.</p>
+                </div>
+
+              </div>
+            </a>
+          </div>
+        </div>
+      </div>
+    </div>
+
+  </div>
+  <!--END MAIN SITE-->
+  </div>
+  <footer>
+
+  </footer>
+  <script src="https://cdn.jsde/bootstrap@5.0.2/dist/js/bootstrap.bundle.min.js"
+    integrity="sha384-MrcW6ZMFYlzcLA8Nl+NtUVF0sA7MsXsP1UyJoMp4YLEuNSfAP+JcXn/tWtIaxVXM"
+    crossorigin="anonymous"></script>
+  <script src="script.js"></script>
+</body>
+
 </html>
