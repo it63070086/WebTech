@@ -13,8 +13,9 @@
   <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.0.2/dist/css/bootstrap.min.css" rel="stylesheet"
     integrity="sha384-EVSTQN3/azprG1Anm3QDgpJLIm9Nao0Yz1ztcQTwFspd3yD65VohhpuuCOmLASjC" crossorigin="anonymous" />
   <link rel="stylesheet" href="style.css" />
+  <link rel="stylesheet" href="studio.css" />
   <title>home | KRAFTON</title>
-  <link rel="shortcut icon" href="https://www.krafton.com/wp-content/themes/krafton/assets/img/logo/favicon.ico" />
+  <link rel=" shortcut icon" href="https://www.krafton.com/wp-content/themes/krafton/assets/img/logo/favicon.ico" />
   <link rel="apple-touch-icon" sizes="180x180"
     href="https://www.krafton.com/wp-content/themes/krafton/assets/img/logo/apple-touch-icon.png" />
   <link rel="icon" type="image/png" sizes="16x16"
@@ -29,9 +30,9 @@
 
 </head>
 
-<body id="body">
+<body id="body" class="changeBg">
   <header>
-    <div class="nav" onmouseover="nav()">
+    <div class="nav" onmouseover="nav()" id="nav">
       <div class="nav-site">
         <div class="nav-logo"></div>
         <div class="nav-menu">
@@ -49,51 +50,53 @@
         </div>
       </div>
     </div>
-    <div class="nav-sub" id="nav-sub">
-      <div class="sub-menu">
-        <b><a href="">About</a></b>
-        <a href="">KRAFTON Story</a>
-        <a href="">Our Footprints</a>
-        <a href="">Our Challenges</a>
-        <a href="">Brand Resource Center</a>
-      </div>
-      <div class="sub-menu">
-        <b><a href="">Studios</a></b>
-        <a href="">PUBG STUDIOS</a>
-        <a href="">Bluehole Studio</a>
-        <a href="">RisingWings</a>
-        <a href="">Striking Distance Studios</a>
-        <a href="">Dreamotion</a>
-      </div>
-      <div class="sub-menu">
-        <b><a href="">Games</a></b>
-        <a href="">PUBG: BATTLEGROUNDS</a>
-        <a href="">PUBG: NEW STATE</a>
-        <a href="">TERA</a>
-        <a href="">ELYON</a>
-        <a href="">MISTOVER</a>
-        <a href="">Castle Craft: World War</a>
-        <a href="">GOLF KING: WORLD TOUR</a>
-        <a href="">BOWLING KING</a>
-        <a href="">MINI GOLF KING</a>
-        <a href="">Ronin: The Last Samurai</a>
-        <a href="">Road to Valor: World War II</a>
-      </div>
-      <div class="sub-menu">
-        <b><a href="">Careers</a></b>
-        <a href="">People</a>
-        <a href="">Life</a>
-        <a href="">Jobs</a>
-      </div>
-      <div class="sub-menu">
-        <b><a href="">IR</a></b>
-        <a href="">GovernanceDisclosure</a>
-        <a href="">Financial Information</a>
-        <a href="">Investor Events</a>
-      </div>
-      <div class="sub-menu">
-        <b><a href="">News</a></b>
-        <a href="">Press</a>
+    <div style="position: relative; background: black;">
+      <div class="nav-sub" id="nav-sub">
+        <div class="sub-menu">
+          <b><a href="">About</a></b>
+          <a href="">KRAFTON Story</a>
+          <a href="">Our Footprints</a>
+          <a href="">Our Challenges</a>
+          <a href="">Brand Resource Center</a>
+        </div>
+        <div class="sub-menu">
+          <b><a href="">Studios</a></b>
+          <a href="">PUBG STUDIOS</a>
+          <a href="">Bluehole Studio</a>
+          <a href="">RisingWings</a>
+          <a href="">Striking Distance Studios</a>
+          <a href="">Dreamotion</a>
+        </div>
+        <div class="sub-menu">
+          <b><a href="">Games</a></b>
+          <a href="">PUBG: BATTLEGROUNDS</a>
+          <a href="">PUBG: NEW STATE</a>
+          <a href="">TERA</a>
+          <a href="">ELYON</a>
+          <a href="">MISTOVER</a>
+          <a href="">Castle Craft: World War</a>
+          <a href="">GOLF KING: WORLD TOUR</a>
+          <a href="">BOWLING KING</a>
+          <a href="">MINI GOLF KING</a>
+          <a href="">Ronin: The Last Samurai</a>
+          <a href="">Road to Valor: World War II</a>
+        </div>
+        <div class="sub-menu">
+          <b><a href="">Careers</a></b>
+          <a href="">People</a>
+          <a href="">Life</a>
+          <a href="">Jobs</a>
+        </div>
+        <div class="sub-menu">
+          <b><a href="">IR</a></b>
+          <a href="">GovernanceDisclosure</a>
+          <a href="">Financial Information</a>
+          <a href="">Investor Events</a>
+        </div>
+        <div class="sub-menu">
+          <b><a href="">News</a></b>
+          <a href="">Press</a>
+        </div>
       </div>
     </div>
     <div class="banner">
@@ -127,8 +130,12 @@
       </div>
     </div>
     <div class="down-page">
-      <div><div class="text-arrow"></div></div>
-      <div><div class="arrow"></div></div>
+      <div>
+        <div class="text-arrow"></div>
+      </div>
+      <div>
+        <div class="arrow"></div>
+      </div>
     </div>
   </header>
   <div class="MainSite">
@@ -144,7 +151,7 @@
                 alt="" />
             </div>
             <div>
-              <h4 calss="Text-new">
+              <h4 class="Text-new">
                 VIRTUS.PRO WINS PUBG CONTINENTAL SERIES 5 EUROPE GRAND FINALS
               </h4>
               <div class="New-time">2021. 10. 04</div>
@@ -155,19 +162,21 @@
               <img class="Scale-img" src="https://www.krafton.com/wp-content/uploads/2021/10/4.Carry_-381x244.jpg"
                 alt="" />
             </div>
-            <h4 calss="Text-new">
+            <h4 class="Text-new">
               PUBG: BATTLEGROUNDS BRINGS HALLOWEEN TO THE ERANGEL MAP WITH
               UPDATE 14.1
             </h4>
+            <div class="New-time">2021. 09. 29</div>
           </div>
           <div class="New-content">
             <div class="New-img">
               <img class="Scale-img"
                 src="https://www.krafton.com/wp-content/uploads/2021/08/About_history_og-min-381x244.png" alt="" />
             </div>
-            <h4 calss="Text-new">
+            <h4 class="Text-new">
               Yeoksam Office for Communication and Refreshment
             </h4>
+            <div class="New-time">2021. 09. 27</div>
           </div>
         </div>
       </div>
@@ -183,9 +192,9 @@
                 alt="" />
             </div>
             <div>
-              <h4 calss="Text-new">PEOPLE&LIFE</h4>
+              <h4 class="Text-new change">PEOPLE&LIFE</h4>
 
-              <div class="New-time">
+              <div class="New-time change">
                 Meet our team members you want to work with.
               </div>
               <div class="arrow-link" id="arrow-link1"></div>
@@ -196,34 +205,31 @@
               <img class="Scale-img" src="https://www.krafton.com/wp-content/uploads/2021/08/main_jobs-580x220.png"
                 alt="" />
             </div>
-            <h4 calss="Text-new">KRAFTON RECRUIT</h4>
-            <div class="New-time">Find our latest job openings.</div>
+            <h4 class="Text-new change">KRAFTON RECRUIT</h4>
+            <div class="New-time change">Find our latest job openings.</div>
             <div class="arrow-link" id="arrow-link2"></div>
           </div>
         </div>
       </div>
     </div>
-
-    <div class="MainGame a-BlackBg">
-      <div class="MainGameInner">
-        <!-- MainKraftonGame Header -->
-        <div class="MainGameHeader">
-          <div class="site-container MainGameHeader-Inner">
-            <h3 class="MainGameHeader-title">
-              <a class="MainGameHeader-link" href="/en/games/">KRAFTON GAMES</a>
-            </h3>
-            <!--arrow -->
-            <div class="MainGameSlideArrow">
-            </div>
-            <!--.arrow -->
-          </div>
+    <!-- Games -->
+    <div class="site-container">
+      <div class="game-head">
+        <h3><a href="" class="game-title change">KRAFTON GAMES</a></h3>
+      </div>
+      <div>
+        <div class="games">
+          <div class="game"></div>
+          <div class="game"></div>
+          <div class="game"></div>
+          <div class="game"></div>
+          <div class="game"></div>
+          <div class="game"></div>
+          <div class="game"></div>
+          <div class="game"></div>
+          <div class="game"></div>
+          <div class="game"></div>
         </div>
-        <!-- .MainKraftonGame Header -->
-        <!-- MainKraftonGame Slide -->
-        <div class="MainGameSlide">
-
-        </div>
-        <!-- .MainKraftonGame Slide -->
       </div>
     </div>
 
@@ -231,7 +237,7 @@
       <div class="site-container">
         <div class="MainStudios-header">
           <h3 class="MainStudios-title">
-            <a href="/en/studios/" class="MainStudios-text">Studios</a>
+            <a href="/en/studios/" class="MainStudios-text change">Studios</a>
           </h3>
         </div>
         <div class="Studio-frame">
@@ -241,8 +247,8 @@
               <div class="Card1" id="std-card1">
                 <div class="Studio-img1"></div>
                 <div class="Studio-info1">
-                  <h4>PUBG STUDIOS</h4>
-                  <p>More than just a game, PUBG is a cultural phenomenon</p>
+                  <h4 class="change"><b>PUBG STUDIOS</b></h4>
+                  <p class="Card-text">More than just a game, PUBG is a cultural phenomenon</p>
                 </div>
 
               </div>
@@ -254,8 +260,8 @@
               <div class="Card2" id="std-card2">
                 <div class="Studio-img2"></div>
                 <div class="Studio-info2">
-                  <h4>Bluehole Studio</h4>
-                  <p>We will become a leading game production company in the mmorpg genre</p>
+                  <h4 class="change"><b>Bluehole Studio</b></h4>
+                  <p class="Card-text">We will become a leading game production company in the mmorpg genre</p>
                 </div>
 
               </div>
@@ -267,8 +273,8 @@
               <div class="Card3" id="std-card3">
                 <div class="Studio-img3"></div>
                 <div class="Studio-info3">
-                  <h4><b>RisingWings</b></h4>
-                  <p>The most widely desired mobile game provider</p>
+                  <h4 class="change"><b>RisingWings</b></h4>
+                  <p class="Card-text">The most widely desired mobile game provider</p>
                 </div>
 
               </div>
@@ -279,8 +285,9 @@
               <div class="Card4" id="std-card4">
                 <div class="Studio-img4"></div>
                 <div class="Studio-info4">
-                  <h4>Striking Distance Studios</h4>
-                  <p>Crafting immersive experiences, driven by our passion for quality and excellence.</p>
+                  <h4 class="change"><b>Striking Distance Studios</b></h4>
+                  <p class="Card-text">Crafting immersive experiences, driven by our passion for quality and excellence.
+                  </p>
                 </div>
 
               </div>
@@ -293,13 +300,81 @@
   </div>
   <!--END MAIN SITE-->
   </div>
-  <footer>
 
-  </footer>
-  <script src="https://cdn.jsde/bootstrap@5.0.2/dist/js/bootstrap.bundle.min.js"
-    integrity="sha384-MrcW6ZMFYlzcLA8Nl+NtUVF0sA7MsXsP1UyJoMp4YLEuNSfAP+JcXn/tWtIaxVXM"
-    crossorigin="anonymous"></script>
-  <script src="script.js"></script>
+  <div class="Footer">
+
+    <div class="Footer-container">
+      <div class="Footer-menu">
+        <div class="Footer-menu-left">
+          <div class="Footer-menu-left-text">
+            <p class="Footer-text">Visit Us</p>
+          </div>
+          <div class="Footer-menu-left-text">
+            <p class="Footer-text">Privacy Policy</p>
+          </div>
+          <div class="Footer-menu-left-text">
+            <p class="Footer-text">Privacy Notice for California Residents</p>
+          </div>
+          <div class="Footer-menu-left-text">
+            <p class="Footer-text">Contact Us</p>
+          </div>
+          <div class="Footer-menu-left-text">
+            <p class="Footer-text">Speak Up</p>
+          </div>
+        </div>
+        <div class="Footer-logo-right">
+          <div class="Footer-logo-frame">
+            <a href="" title="Facebook" class="Logo-facebook">Facebook</a>
+          </div>
+          <div class="Footer-logo-frame">
+            <a href="" title="Youtube" class="Logo-youtube">Youtube</a>
+          </div>
+          <div class="Footer-logo-frame">
+            <a href="" title="Blog" class="Logo-blog">Blog</a>
+          </div>
+          <div class="Footer-logo-frame">
+            <a href="" title="Naver Post" class="Logo-naver">Naver Post</a>
+          </div>
+          <div class="Footer-logo-frame">
+            <a href="" title="Instargram" class="Logo-instargram">Instargram</a>
+          </div>
+          <div class="Footer-logo-frame">
+            <a href="" title="LinkedIn" class="Logo-linkedin">LinkedIn</a>
+          </div>
+
+        </div>
+      </div>
+      <div class="Footer-copy">
+        <div class="Footer-family">
+          <a class="Footer-family-text" onclick="Footerfamily()" href="#;" id="Footer-family">
+            Family Site
+          </a>
+          <div class="Menu-family" id="Footer-list" style="height: 0px; opacity: 0; transform: scaleY(0);">
+            <div class="Menu-family-frame">
+              <div class="Menu-family-list"><a href="">PUBG STUDIOS</a></div>
+              <div class="Menu-family-list"><a href="">RISINGWINGS</a></div>
+              <div class="Menu-family-list"><a href="">Striking Distance Studios</a></div>
+              <div class="Menu-family-list"><a href="">DREAMOTION</a></div>
+              <div class="Menu-family-list"><a href="">eSports</a></div>
+              <div class="Menu-family-list"><a href="">PUBG Universe</a></div>
+            </div>
+          </div>
+        </div>
+        <div class="Footer-copy-info">
+          <div class="Footer-copy-info-logo">
+          </div>
+          <div class="Footer-copy-info-text">
+            © 2021 KRAFTON, Inc. All rights reserved.
+          </div>
+        </div>
+      </div>
+
+    </div>
+
+    <script src="https://cdn.jsde/bootstrap@5.0.2/dist/js/bootstrap.bundle.min.js"
+      integrity="sha384-MrcW6ZMFYlzcLA8Nl+NtUVF0sA7MsXsP1UyJoMp4YLEuNSfAP+JcXn/tWtIaxVXM"
+      crossorigin="anonymous"></script>
+    <script src="script.js"></script>
 </body>
 
 </html>

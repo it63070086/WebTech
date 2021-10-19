@@ -13,6 +13,9 @@
         <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.0.2/dist/css/bootstrap.min.css" rel="stylesheet"
             integrity="sha384-EVSTQN3/azprG1Anm3QDgpJLIm9Nao0Yz1ztcQTwFspd3yD65VohhpuuCOmLASjC" crossorigin="anonymous">
         <link rel="stylesheet" href="style.css">
+        <link rel="stylesheet" href="about.css">
+        
+
         <title>ABOUT | KRAFTON</title>
         <link rel="shortcut icon" href="https://www.krafton.com/wp-content/themes/krafton/assets/img/logo/favicon.ico">
         <link rel="apple-touch-icon" sizes="180x180"
@@ -26,43 +29,88 @@
         <link rel="icon" type="image/png" sizes="32x32"
             href="https://www.krafton.com/wp-content/themes/krafton/assets/img/logo/favicon-32x32.png">
     </head>
-    
-
-<body>
-    <div class="nav border border-dark">
-        <div class="nav-logo"></div>
-        <div class="nav-site border border-dark">
-            <div class="ul">
-                <a href="">
-                    <div class="li">About</div>
-                </a>
+<body id="body" class="changeBg">
+    <header>
+        <div class="nav" onmouseover="nav()" id="nav">
+         <div class="nav-site">
+         <div class="nav-logo"></div>
+            <div class="nav-menu">
+            <a href="" class="menu-item">About</a>
+                <a href="" class="menu-item">Studios</a>
+                <a href="" class="menu-item">Games</a>
+                <a href="" class="menu-item">Careers</a>
+                <a href="" class="menu-item">IR</a>
+                <a href="" class="menu-item">News</a>
+              </div>
+              <div class="nav-lang">
+                <a href="" class="lang-item">KO</a><span class="nav-split">|</span>
+                <a href="" class="lang-item">EN</a><span class="nav-split">|</span>
+                <a href="" class="lang-item">CN</a>
+              </div>
             </div>
-        </div>
-    </div>
-
-    <div class="MainSite">
-        <div class="ContentText">
-            <div class="PageHeaderTitle-text border border-dark">
-                <h3 class="text-font">KRAFTON Story</h3>
+          </div>
+          <div class="nav-sub" id="nav-sub">
+            <div class="sub-menu">
+              <b><a href="">About</a></b>
+              <a href="">KRAFTON Story</a>
+              <a href="">Our Footprints</a>
+              <a href="">Our Challenges</a>
+              <a href="">Brand Resource Center</a>
             </div>
-            <div class="img">
-                <img src="https://www.krafton.com/wp-content/uploads/2021//08/bg_about_story.png" alt="">
+            <div class="sub-menu">
+              <b><a href="">Studios</a></b>
+              <a href="">PUBG STUDIOS</a>
+              <a href="">Bluehole Studio</a>
+              <a href="">RisingWings</a>
+              <a href="">Striking Distance Studios</a>
+              <a href="">Dreamotion</a>
             </div>
-
-        </div>
-
-
+            <div class="sub-menu">
+              <b><a href="">Games</a></b>
+              <a href="">PUBG: BATTLEGROUNDS</a>
+              <a href="">PUBG: NEW STATE</a>
+              <a href="">TERA</a>
+              <a href="">ELYON</a>
+              <a href="">MISTOVER</a>
+              <a href="">Castle Craft: World War</a>
+              <a href="">GOLF KING: WORLD TOUR</a>
+              <a href="">BOWLING KING</a>
+              <a href="">MINI GOLF KING</a>
+              <a href="">Ronin: The Last Samurai</a>
+              <a href="">Road to Valor: World War II</a>
+            </div>
+            <div class="sub-menu">
+              <b><a href="">Careers</a></b>
+              <a href="">People</a>
+              <a href="">Life</a>
+              <a href="">Jobs</a>
+            </div>
+            <div class="sub-menu">
+              <b><a href="">IR</a></b>
+              <a href="">GovernanceDisclosure</a>
+              <a href="">Financial Information</a>
+              <a href="">Investor Events</a>
+            </div>
+            <div class="sub-menu">
+              <b><a href="">News</a></b>
+              <a href="">Press</a>
+            </div>
+          </div>
 
     <div class="MainNews">
-        <div class="site-container">
-            <h2 class="text-font" id="">Vision</h2><br>
-            <div class="d-flex justify-content-between" id="boxbox">
-                <div class="whyhowwhat">
-                    <h3 class="text-font">WHY</h3>
-                </div>
-                <div class="whyhowwhat">
-                    <p class="text-font">We believe games will become the world’s most powerful medium.</p>
-                </div>
+    <div class="site-container">
+        <div class="PageHeaderTitle">
+        <h2 class="PageHeaderTitle-text">KRAFTON Story</h2>
+        </div>
+    </div>
+         <h2 class="text-font" id="">Vision</h2><br>
+        <div class="d-flex justify-content-between" id="boxbox">
+            <div class="whyhowwhat">
+                <h3 class="text-font">WHY</h3>
+            </div>
+            <div class="whyhowwhat">
+                <p class="text-font">We believe games will become the world’s most powerful medium.</p>
+            </div>
             </div><br>
             <div class="d-flex justify-content-between" id="boxbox">
                 <div class="whyhowwhat">
@@ -120,76 +168,91 @@
     </div>
 
     <div class="MainNews">
-        <div class="site-container line">
+        <div class="ChallengeCircle">
             <h2 class="text-font" id="">Challenge Circle</h2><br>
-            <div class="chacir"></div>
+            <div class="chacir"></div><br>
             <p>KRAFTON is a collective of studios, each with their own distinct creative identity. Our team is always aspiring to evolve, innovate, and create new technology and entertainment experiences that fans can interact and engage with for years to come.
                 This is the power of KRAFTON continuously generating unparalleled creation based on technology.</p>
 
         </div>
     </div>
+    <div class="Footer">
 
-
-
-        <script src="https://cdn.jsde/bootstrap@5.0.2/dist/js/bootstrap.bundle.min.js"
-            integrity="sha384-MrcW6ZMFYlzcLA8Nl+NtUVF0sA7MsXsP1UyJoMp4YLEuNSfAP+JcXn/tWtIaxVXM"
-            crossorigin="anonymous">
-        </script>
-</body>
-<style>
-    .valuestory{
-        width:33.33%;
-        height:100%;
-        display: flex;
-        flex-direction: column;
-
-    }
-    .sen{
-        width:90%;
-        height:1%;
-        background-color: black;
-    }
-    .line{
-        border: 4px solid black;
-    }
-    #boxbox{
-        width:100%;
-    }
-    .whyhowwhat{
-        width:50%;
-        height:75%;
-    }
-    .arrpic{
-        width:15%;
-        height:5%;
-        background-image: url("https://www.krafton.com/wp-content/themes/krafton/assets/img/icon/ico-more-arrow.png");
-        background-size: auto;
-        background-repeat: no-repeat;
-    }
-    .chacir{
-
-        width:100%;
-        height:75%;
-        background-image: url("https://www.krafton.com/wp-content/uploads/2021/07/Story-circle-e-min.png");
-    }
-
-
-    .MainNews {
-    font-family: 'Noto Sans', sans-serif;
-    margin-bottom: 88px; 
-    padding-top: 46px;
-    overflow: hidden;
-    border: 1px solid rgb(0, 241, 229);
-    }
-
-    .site-container {
-    max-width: 1280px;
-    height: 455px;
-    margin: 0 auto;
-    position: relative;
-    padding: 0 40px;
-    overflow: hidden;
-    }
+        <div class="Footer-container">
+          <div class="Footer-menu">
+            <div class="Footer-menu-left">
+              <div class="Footer-menu-left-text">
+                <p class="Footer-text">Visit Us</p>
+              </div>
+              <div class="Footer-menu-left-text">
+                <p class="Footer-text">Privacy Policy</p>
+              </div>
+              <div class="Footer-menu-left-text">
+                <p class="Footer-text">Privacy Notice for California Residents</p>
+              </div>
+              <div class="Footer-menu-left-text">
+                <p class="Footer-text">Contact Us</p>
+              </div>
+              <div class="Footer-menu-left-text">
+                <p class="Footer-text">Speak Up</p>
+              </div>
+            </div>
+            <div class="Footer-logo-right">
+              <div class="Footer-logo-frame">
+                <a href="" title="Facebook" class="Logo-facebook">Facebook</a>
+              </div>
+              <div class="Footer-logo-frame">
+                <a href="" title="Youtube" class="Logo-youtube">Youtube</a>
+              </div>
+              <div class="Footer-logo-frame">
+                <a href="" title="Blog" class="Logo-blog">Blog</a>
+              </div>
+              <div class="Footer-logo-frame">
+                <a href="" title="Naver Post" class="Logo-naver">Naver Post</a>
+              </div>
+              <div class="Footer-logo-frame">
+                <a href="" title="Instargram" class="Logo-instargram">Instargram</a>
+              </div>
+              <div class="Footer-logo-frame">
+                <a href="" title="LinkedIn" class="Logo-linkedin">LinkedIn</a>
+              </div>
     
-</style>
+            </div>
+          </div>
+          <div class="Footer-copy">
+            <div class="Footer-family" >
+              <a class="Footer-family-text" onclick="Footerfamily()" href="#;" id="Footer-family">
+                Family Site
+              </a>
+              <div class="Menu-family" id="Footer-list" style="height: 0px; opacity: 0; transform: scaleY(0);">
+                <div class="Menu-family-frame">
+                  <div class="Menu-family-list"><a href="">PUBG STUDIOS</a></div>
+                  <div class="Menu-family-list"><a href="">RISINGWINGS</a></div>
+                  <div class="Menu-family-list"><a href="">Striking Distance Studios</a></div>
+                  <div class="Menu-family-list"><a href="">DREAMOTION</a></div>
+                  <div class="Menu-family-list"><a href="">eSports</a></div>
+                  <div class="Menu-family-list"><a href="">PUBG Universe</a></div>
+              </div>
+              </div>
+            </div>
+            <div class="Footer-copy-info">
+              <div class="Footer-copy-info-logo">
+    
+              </div>
+              <div class="Footer-copy-info-text">
+                © 2021 KRAFTON, Inc. All rights reserved.
+              </div>
+            </div>
+          </div>
+    
+        </div>
+        </foot>
+
+
+    <script src="https://cdn.jsde/bootstrap@5.0.2/dist/js/bootstrap.bundle.min.js"
+    integrity="sha384-MrcW6ZMFYlzcLA8Nl+NtUVF0sA7MsXsP1UyJoMp4YLEuNSfAP+JcXn/tWtIaxVXM"
+    crossorigin="anonymous"></script>
+    <script src="script.js"></script>
+</body>
+
 </html>
